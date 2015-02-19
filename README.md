@@ -6,11 +6,13 @@
 	* ImageOptim
 
 
-##Terminal:
+##Command Line:
 
 * [Laptop - Sets up computer for development](https://github.com/thoughtbot/laptop)
 
 * [Zshell](https://github.com/robbyrussell/oh-my-zsh)
+
+* [Command Line Tools for Front-End Devs](http://seesparkbox.com/foundry/command_line_tools_for_frontend_developers)
 
 
 ##GitHub Blog:
@@ -27,11 +29,11 @@ For every Push:
 ##Aniamtion:
 [Web-Apps-Deserve-Sexy-Transitions](https://medium.com/@gem_ray/web-apps-deserve-sexy-transitions-too-8068a5e4cb82)
 
-http://www.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/
+[Smart Transitions in User Expereince Design](http://www.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/)
 
-https://medium.com/@pasql/transitional-interfaces-926eb80d64e3
+[Transitional Interfaces](https://medium.com/@pasql/transitional-interfaces-926eb80d64e3)
 
-https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e
+[Improve the Payment expereince with Animations](https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e)
 
 ##Web Performance
 http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/
@@ -41,6 +43,16 @@ http://alistapart.com/article/improving-ux-through-front-end-performance
 http://www.uxbooth.com/articles/keep-users-updated-during-long-load-times/
 
 http://blog.usabilla.com/how-to-integrate-waiting-time-user-experience/
+
+https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+
+
+
+Neurology of Web Performance:
+
+[Neuroscience Page Speed Web Performance](http://www.webperformancetoday.com/2012/03/21/neuroscience-page-speed-web-performance/)
+
+http://una.github.io/spa/
 
 ##UI Patterns
 http://userflowpatterns.com/
@@ -58,8 +70,12 @@ Animation:
 Beginner:
 [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 
+[CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
+
 
 Advanced:
+
+[High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
 [Transition Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
 
@@ -99,8 +115,46 @@ Highlight the property you want and Press-D to change all attributes on the page
 
 ##Sass:
 
+[Drying out your Sass Mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins)
 
 ##UX:
 
 http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship
-# all-the-resources
+
+
+#Books:
+
+##Learning UX Books:
+
+These are teh book I recommend to anyone who is interesting in learning UX processes. They are in order from what I would say is most important to least.
+
+1. [This is Service Design Thinking- ](http://www.amazon.com/This-Service-Design-Thinking-Basics/dp/1118156307/ref=sr_1_1?s=books&ie=UTF8&qid=1418961298&sr=1-1&keywords=this+is+service+design+thinking&pebp=1418961299763)
+This book is a great primer to what service design is and the tools that they use. This taught me a lot about user research and how to design for things that are not tangible.
+
+2. [Designing for the digital age-]
+(http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101/ref=sr_1_1?s=books&ie=UTF8&qid=1418961284&sr=1-1&keywords=designing+for+the+digital+age&pebp=1418961286348)
+Amazing book very dense and a long read but it was the first book I read about designing for interaction and products. It shows how the product design world is structured.
+
+3. [Designing Interface-](http://www.amazon.com/Designing-Interfaces-Jenifer-Tidwell/dp/1449379702/ref=pd_sim_b_1?ie=UTF8&refRID=1B8EM0PGB9KCQW1JRT2Z)
+Goes though everything interface in detail.
+
+4. [How to Make Sense of Any Mess](http://www.amazon.com/How-Make-Sense-Any-Mess/dp/1500615994/ref=sr_1_1?s=books&ie=UTF8&qid=1418961437&sr=1-1&keywords=make+sense+of+any+mess&pebp=1418961440157)
+Amazing book about information architecture
+
+5. [Don’t Make me Think-]
+(http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?s=books&ie=UTF8&qid=1418961361&sr=1-1&keywords=don%27t+make+me+think&pebp=1418961362533)
+Great book about designing intuitive interaction and information design 
+
+6. [101 design methods-] 
+(http://www.amazon.com/101-Design-Methods-Structured-Organization/dp/1118083466/ref=sr_1_1?s=books&ie=UTF8&qid=1418961312&sr=1-1&keywords=101+design+methods&pebp=1418961313509)
+Real good methods for design thinking
+
+7. [MicroInteractions - ](http://www.amazon.com/Microinteractions-Full-Color-Designing-Details/dp/1491945923/ref=sr_1_1?s=books&ie=UTF8&qid=1418961325&sr=1-1&keywords=microinteractions&pebp=1418961326860)
+Great quick read about designing very very small interactions.
+
+8. [Service Design- ](http://www.amazon.com/Service-Design-Implementation-Andy-Polaine/dp/1933820330/ref=sr_1_1?s=books&ie=UTF8&qid=1418961335&sr=1-1&keywords=service+design)
+This is another great book about service design. Very similar to the “This is service design thinking"
+
+9. [Human Centered Design- ](http://www.amazon.com/Human-Centered-Design-Toolkit-Open-Source-Developing/dp/0984645705/ref=sr_1_4?s=books&ie=UTF8&qid=1418961346&sr=1-4&keywords=human+centered+design&pebp=1418961349898)
+Interesting book about human centered design concept. 
+
