@@ -15,18 +15,39 @@
 * [Command Line Tools for Front-End Devs](http://seesparkbox.com/foundry/command_line_tools_for_frontend_developers)
 
 
-##GitHub Blog:
-[Jekyll](http://jekyllrb.com/docs/usage/)
+##GitHub:
+
+[Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
+
+###Tools:
+
+[Waffle](https://waffle.io) - for Issue Managment
 
 ##Git Commands:
 For every Push:
 
-1. git add -A
-2. git commit -m “yada gjekajfs"
-3. git push origin master
+1. `git add -A`
+2. `git commit -m “insert message here"`
+3. `git push origin branch-name`
+
+Collaborating on a Project:
+
+* `git checkout -b branch-name` 
+	* Makes your own branch for the first push
+* `git checkout ryan-branch` 
+	* Change branch in CLI
+* `git branch`
+	* Looks at branch - tells you what branch your own)
+* `git pull upstream master`
+	* Don't remember what this means
+* `git push origin branch-name`
+	* Pushes the local "origin" code to branch
+* `git fetch --all` 
+	* Making sure you code is the same as the  )
 
 
-##Aniamtion:
+
+##Animation:
 [Web-Apps-Deserve-Sexy-Transitions](https://medium.com/@gem_ray/web-apps-deserve-sexy-transitions-too-8068a5e4cb82)
 
 [Smart Transitions in User Expereince Design](http://www.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/)
@@ -35,30 +56,24 @@ For every Push:
 
 [Improve the Payment expereince with Animations](https://medium.com/@michaelvillar/improve-the-payment-experience-with-animations-3d1b0a9b810e)
 
+[Science of Web Animations: SPA](http://una.github.io/spa/)
+
 ##Web Performance
-http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/
 
-http://alistapart.com/article/improving-ux-through-front-end-performance
+[Improve UX Through Front-End Performance](http://alistapart.com/article/improving-ux-through-front-end-performance)
 
-http://www.uxbooth.com/articles/keep-users-updated-during-long-load-times/
+[Keep Users updated udring long load times](http://www.uxbooth.com/articles/keep-users-updated-during-long-load-times/)
 
-http://blog.usabilla.com/how-to-integrate-waiting-time-user-experience/
+[How to integrate waiting time user expereince](http://blog.usabilla.com/how-to-integrate-waiting-time-user-experience/)
 
-https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model
+[Constructing the Object Model - Performance](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
 
-
-
-Neurology of Web Performance:
-
-[Neuroscience Page Speed Web Performance](http://www.webperformancetoday.com/2012/03/21/neuroscience-page-speed-web-performance/)
-
-http://una.github.io/spa/
 
 ##UI Patterns
 http://userflowpatterns.com/
 
 ##Trend Research
-https://econsultancy.com/blog/65140-14-motion-design-trends-for-web-and-mobile-interfaces#i.cg3rva13nzfgbw
+[Motion Design Trends For UI](https://econsultancy.com/blog/65140-14-motion-design-trends-for-web-and-mobile-interfaces#i.cg3rva13nzfgbw)
 
 ##CSS: 
 [CSS Ruler](http://katydecorah.com/css-ruler/)
@@ -102,6 +117,8 @@ Libraries:
 
 http://thoughtbot.com/open-source
 
+[Jekyll - for Github blogging](http://jekyllrb.com/docs/usage/)
+
 ##Brand:
 [Marketers Guide to Developing a Strong Brand](http://blog.hubspot.com/blog/tabid/6307/bid/34238/The-Marketer-s-Guide-to-Developing-a-Strong-Brand-Identity.aspx)
 
@@ -113,20 +130,34 @@ Keyboard Shortcuts:
 
 Highlight the property you want and Press-D to change all attributes on the page
 
+[Emmit](http://emmet.io/ )
+
 ##Sass:
 
 [Drying out your Sass Mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins)
 
 ##UX:
 
-http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship
+[UI Animation and UX Friendship](http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship)
 
+
+##Accessibility
+
+[Reframing Accessibility for the web](http://alistapart.com/article/reframing-accessibility-for-the-web)
+
+##Psycology witin Design
+
+[How Users Really Perceive Interfaces: Psychological and Biological Approach to User Interfaces.](https://medium.com/@kresokraljevic/how-users-really-perceive-interfaces-psychological-and-biological-approach-to-user-interfaces-c1271e0225c7)
+
+[Psycology Web Performance](http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/)
+
+[Neuroscience Page Speed Web Performance](http://www.webperformancetoday.com/2012/03/21/neuroscience-page-speed-web-performance/)
 
 #Books:
 
 ##Learning UX Books:
 
-These are teh book I recommend to anyone who is interesting in learning UX processes. They are in order from what I would say is most important to least.
+These are the book I recommend to anyone who is interesting in learning UX processes. They are in order from what I would say is most important to least.
 
 1. [This is Service Design Thinking- ](http://www.amazon.com/This-Service-Design-Thinking-Basics/dp/1118156307/ref=sr_1_1?s=books&ie=UTF8&qid=1418961298&sr=1-1&keywords=this+is+service+design+thinking&pebp=1418961299763)
 This book is a great primer to what service design is and the tools that they use. This taught me a lot about user research and how to design for things that are not tangible.
