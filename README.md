@@ -1,12 +1,17 @@
-##Applications
+## Applications
 
 * Development:
 	* Sublime Text
 	* MacDown
 	* ImageOptim
 
+## Tools
 
-##Command Line:
+### Prototyping Tools:
+[Origami](http://facebook.github.io/origami/)
+
+
+## Command Line:
 
 * [Laptop - Sets up computer for development](https://github.com/thoughtbot/laptop)
 
@@ -15,15 +20,15 @@
 * [Command Line Tools for Front-End Devs](http://seesparkbox.com/foundry/command_line_tools_for_frontend_developers)
 
 
-##GitHub:
+## GitHub:
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
 
-###Tools:
+### Tools:
 
 [Waffle](https://waffle.io) - for Issue Managment
 
-##Git Commands:
+## Git Commands:
 For every Push:
 
 1. `git add -A`
@@ -45,9 +50,12 @@ Collaborating on a Project:
 * `git fetch --all` 
 	* Making sure you code is the same as the  )
 
+	
+* Git [emojis](http://www.emoji-cheat-sheet.com/)
 
 
-##Animation:
+
+## Animation:
 [Web-Apps-Deserve-Sexy-Transitions](https://medium.com/@gem_ray/web-apps-deserve-sexy-transitions-too-8068a5e4cb82)
 
 [Smart Transitions in User Expereince Design](http://www.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/)
@@ -58,7 +66,9 @@ Collaborating on a Project:
 
 [Science of Web Animations: SPA](http://una.github.io/spa/)
 
-##Web Performance
+[Codrops Inspiration](http://tympanus.net/codrops/)
+
+## Web Performance
 
 [Improve UX Through Front-End Performance](http://alistapart.com/article/improving-ux-through-front-end-performance)
 
@@ -69,20 +79,26 @@ Collaborating on a Project:
 [Constructing the Object Model - Performance](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/constructing-the-object-model)
 
 
-##UI Patterns
-http://userflowpatterns.com/
+## UI Patterns
 
-##Trend Research
+[User Flow Patterns](http://userflowpatterns.com/)
+
+## Trend Research
+
 [Motion Design Trends For UI](https://econsultancy.com/blog/65140-14-motion-design-trends-for-web-and-mobile-interfaces#i.cg3rva13nzfgbw)
 
-##CSS: 
-[CSS Ruler](http://katydecorah.com/css-ruler/)
-http://codyhouse.co/
+## CSS: 
+Tools:
 
+[CSS Ruler](http://katydecorah.com/css-ruler/)
+
+
+[CSS Blending Effects](http://sarasoueidan.com/blog/compositing-and-blending-in-css/?mc_cid=3347508929&mc_eid=c3027ae9de)
 
 Animation: 
 
 Beginner:
+
 [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 
 [CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
@@ -102,27 +118,37 @@ Advanced:
 
 [SVG Animations](http://css-tricks.com/guide-svg-animations-smil/)
 
+[SVG - Animated Line](http://jakearchibald.com/2013/animated-line-drawing-svg/)
+
 [Transition-Timing-Function](http://css-tricks.com/almanac/properties/t/transition-timing-function/)
 
 [Undersatnding CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
+
 
 Libraries:
 
 [BounceJS](http://bouncejs.com/)
 
-##Javscript:
+Syntax:
+
+[BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+
+[BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
+
+
+## Javscript:
 [Advanced Javascript](http://ejohn.org/apps/learn/)
 
-##Open Source Tools
+## Open Source Tools
 
-http://thoughtbot.com/open-source
+ThoughtBot's collection of [Open Source Tools](http://thoughtbot.com/open-source)
 
 [Jekyll - for Github blogging](http://jekyllrb.com/docs/usage/)
 
-##Brand:
+## Brand:
 [Marketers Guide to Developing a Strong Brand](http://blog.hubspot.com/blog/tabid/6307/bid/34238/The-Marketer-s-Guide-to-Developing-a-Strong-Brand-Identity.aspx)
 
-##Sublime Text:
+## Sublime Text:
 
 Package Control
 
@@ -132,20 +158,20 @@ Highlight the property you want and Press-D to change all attributes on the page
 
 [Emmit](http://emmet.io/ )
 
-##Sass:
+## Sass:
 
 [Drying out your Sass Mixins](http://alistapart.com/article/dry-ing-out-your-sass-mixins)
 
-##UX:
+## UX:
 
 [UI Animation and UX Friendship](http://alistapart.com/article/ui-animation-and-ux-a-not-so-secret-friendship)
 
 
-##Accessibility
+## Accessibility
 
 [Reframing Accessibility for the web](http://alistapart.com/article/reframing-accessibility-for-the-web)
 
-##Psycology witin Design
+## Psycology witin Design
 
 [How Users Really Perceive Interfaces: Psychological and Biological Approach to User Interfaces.](https://medium.com/@kresokraljevic/how-users-really-perceive-interfaces-psychological-and-biological-approach-to-user-interfaces-c1271e0225c7)
 
@@ -153,9 +179,19 @@ Highlight the property you want and Press-D to change all attributes on the page
 
 [Neuroscience Page Speed Web Performance](http://www.webperformancetoday.com/2012/03/21/neuroscience-page-speed-web-performance/)
 
-#Books:
+## Inspiration:
 
-##Learning UX Books:
+
+
+### Code:
+
+[HTML,CSS,JS nuggets](http://codyhouse.co/)
+
+[Codrops](tympanus.net/codrops/)
+
+# Books:
+
+## Learning UX Books:
 
 These are the book I recommend to anyone who is interesting in learning UX processes. They are in order from what I would say is most important to least.
 
