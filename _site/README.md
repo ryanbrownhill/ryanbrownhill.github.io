@@ -24,11 +24,9 @@
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
 
-### Github Tools:
+### Tools:
 
 [Waffle](https://waffle.io) - for Issue Managment
-
-[Sass Meister](http://sassmeister.com/)
 
 ## Git Commands:
 For every Push:
@@ -146,8 +144,6 @@ Syntax:
 ThoughtBot's collection of [Open Source Tools](http://thoughtbot.com/open-source)
 
 [Jekyll - for Github blogging](http://jekyllrb.com/docs/usage/)
-
-[Singularity Grid System](https://github.com/at-import/Singularity)
 
 ## Brand:
 [Marketers Guide to Developing a Strong Brand](http://blog.hubspot.com/blog/tabid/6307/bid/34238/The-Marketer-s-Guide-to-Developing-a-Strong-Brand-Identity.aspx)
