@@ -24,9 +24,13 @@
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
 
-### Tools:
+### Github Tools:
 
 [Waffle](https://waffle.io) - for Issue Managment
+
+[Sass Meister](http://sassmeister.com/)
+
+[Git Extras](https://github.com/tj/git-extras)
 
 ## Git Commands:
 For every Push:
@@ -145,6 +149,10 @@ ThoughtBot's collection of [Open Source Tools](http://thoughtbot.com/open-source
 
 [Jekyll - for Github blogging](http://jekyllrb.com/docs/usage/)
 
+[How to setup Jekyll](http://www.smashingmagazine.com/2014/08/01/build-blog-jekyll-github-pages/)
+
+[Singularity Grid System](https://github.com/at-import/Singularity)
+
 ## Brand:
 [Marketers Guide to Developing a Strong Brand](http://blog.hubspot.com/blog/tabid/6307/bid/34238/The-Marketer-s-Guide-to-Developing-a-Strong-Brand-Identity.aspx)
 
@@ -178,6 +186,11 @@ Highlight the property you want and Press-D to change all attributes on the page
 [Psycology Web Performance](http://www.websiteoptimization.com/speed/tweak/psychology-web-performance/)
 
 [Neuroscience Page Speed Web Performance](http://www.webperformancetoday.com/2012/03/21/neuroscience-page-speed-web-performance/)
+
+
+## Content Strategy
+
+[COPE - Create one, Publish Everywhere](http://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
 
 ## Inspiration:
 
