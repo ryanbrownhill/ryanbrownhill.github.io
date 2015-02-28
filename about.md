@@ -1,11 +1,16 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: http://ryanbrownhill.com/about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![headshot](/images/headshot.jpg)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+## About Me.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Hi, I am Ryan Brownhill! I am a born and raised Texan, currently working in Austin as an User Experience Designer at IBM. I am an alumni from the Savannah College of Art and Design. There I studied Motion Media Design with emphasis in Interaction and Service Design. 
+
+I am currently contributing to:
+
+* [The Letter Society](http://lettersociety.com/)
+* [Design Open](http://designopen.org/)
