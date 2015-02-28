@@ -5,7 +5,8 @@ date:   2014-12-18 17:42:59
 categories: motion-design knowledge thoughts
 ---
 
-## Motion Design: Beyond the Screen
+![Banner-Image](/images/posts/motion-design-beyond/POST_2/Banner_4-01.jpg)
+
 
 When people hear the term “Motion Design,” they usually equate it with “Motion Graphics Design,” which Wikipedia defines as “_a subset of graphic design that uses graphic design principles in a filmmaking or video production context through the use of animation or filmic techniques”. _This definition is very specific and confines the medium of motion to graphic design and film production. Motion Design, rather, is a broader context that includes the design of any object or system that changes over time. It includes different design types such as industrial design, user experience design, and even service design.
 
