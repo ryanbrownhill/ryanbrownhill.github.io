@@ -1,0 +1,22 @@
+$base-font-size:   16px;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+// Font Families
+
+%font-copy {
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+%font-title {
+  font-family: "acta-poster",sans-serif;
+  font-style: italic;
+	font-weight: 400;
+}
+
+%font-title-blockquote {
+font-family: "acta-poster",sans-serif;
+font-style: italic;
+font-weight: 400;
+}
+

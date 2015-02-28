@@ -20,18 +20,18 @@ gulp.task('scss', function() {
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(prefix())
     .pipe(rename('main.css'))
-    .pipe(gulp.dest('dist/css'))
+    .pipe(gulp.dest('_site/css'))
     .pipe(reload({stream:true}))
     .pipe(cssmin())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(rename({ suffix: '.min' }))
-    .pipe(gulp.dest('dist/css'));
+    .pipe(gulp.dest('_site/css'));
 });
 
 gulp.task('browser-sync', function() {
     browserSync({
         server: {
-            baseDir: "dist/"
+            baseDir: "_site/"
         }
     });
 });
@@ -41,7 +41,7 @@ gulp.task('js', function() {
     .pipe(uglify())
     .pipe(size({ gzip: true, showFiles: true }))
     .pipe(concat('j.js'))
-    .pipe(gulp.dest('dist/js'))
+    .pipe(gulp.dest('_site/js'))
     .pipe(reload({stream:true}));
 });
 
@@ -59,12 +59,12 @@ gulp.task('minify-html', function() {
 
   gulp.src('./*.html')
     .pipe(minifyHTML(opts))
-    .pipe(gulp.dest('dist/'))
+    .pipe(gulp.dest('_site/'))
     .pipe(reload({stream:true}));
 });
 
 gulp.task('jshint', function() {
-  gulp.src('dist/js/j.js')
+  gulp.src('_site/js/j.js')k
     .pipe(jshint())
     .pipe(jshint.reporter('default'));
 });
@@ -76,7 +76,7 @@ gulp.task('watch', function() {
 });
 
 gulp.task('deploy', function () {
-    return gulp.src('./dist/**/*')
+    return gulp.src('./_site/**/*')
         .pipe(deploy());
 });
 

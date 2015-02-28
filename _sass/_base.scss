@@ -1,30 +1,26 @@
 /**
  * Reset some basic elements
  */
+
+
 body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-h2 {
-  font-family: "acta-poster",sans-serif;
-  font-size: 30em;
-  }
-
 /**
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    @extend %font-copy;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
 }
+
 
 
 
@@ -83,10 +79,8 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 300;
+    font-weight: 600;
 }
-
-
 
 /**
  * Links
@@ -101,13 +95,12 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
     }
 }
 
 
 
-/**
+/*
  * Blockquotes
  */
 blockquote {
@@ -165,7 +158,7 @@ pre {
     padding-left: $spacing-unit;
     @extend %clearfix;
 
-    @include media-query($on-laptop) {
+    @include media-query($media-md) {
         max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
         max-width:         calc(#{$content-width} - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;

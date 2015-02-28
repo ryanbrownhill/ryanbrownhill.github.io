@@ -3,16 +3,9 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
 
 $spacing-unit:     30px;
-
 $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
@@ -23,14 +16,14 @@ $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
 $content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
+$media-sm:          600px;
+$media-md:        800px;
+$media-lg: 			1200px;
 
 
 
 // Using media queries with like this:
-// @include media-query($on-palm) {
+// @include media-query($media-sm) {
 //     .wrapper {
 //         padding-right: $spacing-unit / 2;
 //         padding-left: $spacing-unit / 2;
@@ -42,11 +35,12 @@ $on-laptop:        800px;
     }
 }
 
-
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "type",
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,300italic,400italic);

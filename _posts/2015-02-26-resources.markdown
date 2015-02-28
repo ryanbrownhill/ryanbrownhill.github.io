@@ -1,3 +1,10 @@
+---
+layout: post
+title:  "All The Resources"
+date:   2015-02-26 17:42:59
+categories: resources
+---
+
 ## Applications
 
 * Development:
@@ -57,9 +64,9 @@ Collaborating on a Project:
 	
 * Git [emojis](http://www.emoji-cheat-sheet.com/)
 
+# Animation:
 
-
-## Animation:
+## Animation for Interfaces:
 [Web-Apps-Deserve-Sexy-Transitions](https://medium.com/@gem_ray/web-apps-deserve-sexy-transitions-too-8068a5e4cb82)
 
 [Smart Transitions in User Expereince Design](http://www.smashingmagazine.com/2013/10/23/smart-transitions-in-user-experience-design/)
@@ -71,6 +78,13 @@ Collaborating on a Project:
 [Science of Web Animations: SPA](http://una.github.io/spa/)
 
 [Codrops Inspiration](http://tympanus.net/codrops/)
+
+## Animation:
+
+
+### Gifs:
+[Making Gifs Beautiful](https://medium.com/@InVisionApp/7-tips-for-designing-awesome-animated-gifs-d51af4bae8b7)
+
 
 ## Web Performance
 

@@ -1,0 +1,19 @@
+{
+  "name": "main-blog",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ryanbrownhill/all-the-resources",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sass-toolkit": "~2.7.0"
+  },
+  "devDependencies": {
+    "sass-toolkit": "~2.7.0"
+  }
+}
