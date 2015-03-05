@@ -16,7 +16,7 @@ Its basically a GIF on steroids.
 
 ## Exporting SVG
 
-There are many applications that export SVG (like __, ___< and ___), but the most popular are Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. *(sidenotee: Illustrator does the same thing, though, so I would be careful with this remark, be more specific)
+There are many applications that export SVG (like InkScape, Fireworks< and Webcode), but the most popular are Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. *(sidenotee: Illustrator does the same thing, though, so I would be careful with this remark, be more specific)
 
 If you want to know more about SVG Exporting, Alex Walker did a post about this on [Sitepoint.](http://www.sitepoint.com/designers-guide-working-with-svg/)
 
@@ -32,7 +32,7 @@ There are so many properties you can use when animating SVGs its AMAZING! You ca
 
 ### What is SMIL
 
-Now for the nerdy stuff: what is SMIL and how does it relate to SVG? SMIL Stands for ______, and it is the ______ to which SVG is a host. SVG's animations have the contstraints and features that are permitted by the [SMIL Animation Spec](http://www.w3.org/TR/2001/REC-smil-animation-20010904/). SVG's also have specific rules, such as ____, as stated in [W3 SVG Animation Spec](http://www.w3.org/TR/SVG/animate.html).
+Now for the nerdy stuff: what is SMIL and how does it relate to SVG? SMIL Stands for Synchronized Multimedia Integration Language, and it is the animation language to which SVG is a host. SVG's animations have the contstraints and features that are permitted by the [SMIL Animation Spec](http://www.w3.org/TR/2001/REC-smil-animation-20010904/) but thats not all! In addition to SMIL contstraints SVG's have additional capabilities defined by [W3 SVG Animation Spec](http://www.w3.org/TR/SVG/animate.html), such as `animateTransform`, `path`, & `keyPoints`.
 
 SVG animations are simular to CSS animations because they have keyframes, easing curves, etc. but, it's presented in a different syntax. *One of the downsides of SMIL is that it doesn't work with any version of IE and Opera Mini. [CanIUse](http://caniuse.com/#feat=svg-smil)*
 
@@ -51,13 +51,14 @@ The `<animate/>` element is used to animate a single attribute or property over 
 	fill="freeze"
 	/>
 	
-*(side note: it might be helpful to have a tabe of svg --> css properties like SMIL comparision to CSS animation)*
-	
 * `xlink:href` - selects the element you want to animate. If `xlink:href` is not defined the animation will default to its parent element.
 * `attributeName` - defines the attribute of the element selected.
 * `from` -> `to` - defines the values of the attribute you are animating. Think of them as the same as `from` `to` in CSS.
 * `dur` - duration of animation, similar to the `animation-duration` in CSS.
 * `fill` - same concept as `animation-fill-mode` property in CSS. It defines what to do with the element after the animation is finished.
+
+Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from CSS to SVG.
+![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-04.png)
 
 #### Getting fancy with Keyframes:
 
@@ -76,6 +77,9 @@ The `<animate/>` element is used to animate a single attribute or property over 
 
 * `values` - Above we defined `from` and `to`, with the `values` we are defining how that changes over time in more detail just like keyframes.
 * `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
+
+Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from CSS to SVG.
+![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-05.png)
 
 
 #### Getting EVEN fancier with Easing Curves:

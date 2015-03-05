@@ -137,6 +137,8 @@ SVG:
 
 [SVG Animation with SMIL vs CSS](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil)
 
+[SVG Coordinate System](http://sarasoueidan.com/blog/svg-coordinate-systems/)
+
 Timing Functions:
 
 [Transition-Timing-Function](http://css-tricks.com/almanac/properties/t/transition-timing-function/)
