@@ -14,21 +14,21 @@ Animating SVGs is **SUPER EXCITING!** There are so many attibutes you can animat
 Its basically a GIF on steroids.
 
 
-## 1. Exporting SVG
+## Exporting SVG
 
 There are many applications that export SVG in the world but I only have experience with Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. 
 
 If you want to know more about SVG Exporting, Alex Walker did a post about this on [sitepoint.](http://www.sitepoint.com/designers-guide-working-with-svg/)
 
 
-## 2. Styling Properties
+## Styling Properties
 
 There are so many properties you can use when animating SVGs its AMAZING! You can look at the [SVG Styling Properties Documentation](http://www.w3.org/TR/SVG2/styling.html#SVGStylingProperties) to see all the attributes. Some of these styling you might be familiar with from CSS. Below I have pulled out the styling properties that are unique to SVGs.
 
 ![svg-properties](../../images/posts/svg-animation/svg-properties.png)
 
 
-## 3. SVG Animation Syntax
+## SVG Animation Syntax
 
 ### What is SMIL
 
