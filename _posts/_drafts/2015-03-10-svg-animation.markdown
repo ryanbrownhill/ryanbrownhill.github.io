@@ -54,7 +54,7 @@ The basic structure:
 * `xlink:href` - selects the element you want to animate. If `xlink:href` is not defined the animation will default to its parent element.
 * `attributeName` - defines the attribute of the element selected.
 * `from` -> `to` - defines the values of the attribute you are animating. Think of them as the same as `from` `to` in CSS.
-* `dur` - duration of animation
+* `dur` - duration of animation, similar to the `animation-duration` in CSS.
 * `fill` - same concept as `animation-fill-mode` property in CSS. I defines what to do with the element after the animation is finished.
 
 Getting fancy with Keyframes:
@@ -72,36 +72,11 @@ Getting fancy with Keyframes:
 	
 	/>
 
-* `values` - Above we defined `from` and `to`, with the `values` we are defining how that changes over time in more detail.
+* `values` - Above we defined `from` and `to`, with the `values` we are defining how that changes over time in more detail just like keyframes.
 * `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
 
 
-
- Specify the target for the animation using `xlink:href`
- `attributeName` & `attributeType`
- The `dur` attribute is similar to the `animation-duration` equivalent in CSS.
-
-
-
-### How I Animate
-
-* Define Shape/Path for Animation
-* Define Property to Animate
-* List out Property Values
-* Define Percentage over time for those values.
-* Map out the easing curves between keyframes.
-
-### Other Cool things:
-
-* Animate along path with `<animateMotion>`
-* Interactivity (kinda) `begin="click"` 
-
-
-	
-This is a walk through of just SVG animation but mostly everything you can animate in CSS you can apply to the SVG through the #id-selector and CSS keyframes or transition animations.
-
-
-## 4. Easing Curves
+### Easing Curves
 
 So how to you make the BEAUTIFUL easing curves with SVG animation? I will show you how! 		
 ![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-03.png)
@@ -119,17 +94,27 @@ Note there is no CSS property called `cy`. I have it there as a place holder to 
 Things that don't translate from CSS to SVG animation are pre-defined cubic-bezier's. For example: `ease-in` in CSS = `cubic-bezier(0.47, 0, 0.745, 0.715)` in SVG. There is a great tool by [Lea Verou](http://cubic-bezier.com/#.17,.67,.83,.67) that does these calculations for you. To understand more about CSS animation check out my other post [Ae to CSS](https://medium.com/@ryan_brownhill/after-effects-to-css-79225c1d767e).
 
 
+### How I Animate
+
+* Define Shape/Path for Animation
+* Define Property to Animate
+* List out Property Values
+* Define Percentage over time for those values.
+* Map out the easing curves between keyframes.
+
+### Other Cool things:
+
+* Animate along path with `<animateMotion>`
+* Interactivity (kinda) Starting animation with Click `begin="click"` 
+
 
 ## Resources:
-[Slide Deck](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10)
-
-[Where I found the solution to easing curves for svg's](https://msdn.microsoft.com/en-us/library/ms533119%28v=vs.85%29.aspx)
 		
 [CSS Tricks for SMIL animations](https://css-tricks.com/guide-svg-animations-smil/)
 
-[SVG Animatable Attributes](http://www.w3.org/TR/SVG2/animate.html#AnimationAttributesAndProperties)
+[Slide Deck](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10)
 
-#### Other Notes:
+[Where I found the solution to easing curves for svg's](https://msdn.microsoft.com/en-us/library/ms533119%28v=vs.85%29.aspx)
 
 * Optimizing SVGs
 * [Peter Collingridge's Tool](http://petercollingridge.appspot.com/svg-editor)
