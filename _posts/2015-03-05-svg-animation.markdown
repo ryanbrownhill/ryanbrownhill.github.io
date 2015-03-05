@@ -113,17 +113,12 @@ Things that don't translate from CSS to SVG animation are pre-defined cubic-bezi
 
 
 ## Resources:
-		
-[CSS Tricks for SMIL animations](https://css-tricks.com/guide-svg-animations-smil/)
+	
+* World Wide Web Consortium [SVG section](http://www.w3.org/TR/SVG/animate.html)
 
-[Slide Deck](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10)
+Thanks to [Sara Soueidan](http://sarasoueidan.com/) and her wealth of knowledge of SVG’s and for helping me with this learning curve! 
 
-[Where I found the solution to easing curves for svg's](https://msdn.microsoft.com/en-us/library/ms533119%28v=vs.85%29.aspx)
+* [CSS Tricks for SMIL animations](https://css-tricks.com/guide-svg-animations-smil/)
+* [Slide Deck](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/10)
 
-* Optimizing SVGs
-* [Peter Collingridge's Tool](http://petercollingridge.appspot.com/svg-editor)
-* Standalone Tools
-	* [SVG-O](https://github.com/svg/svgo) 
-	* [SVG GUI](https://github.com/svg/svgo-gui)
-	`<object type="image/svg+xml" data="mySVG.svg"><!--fallback--></object>`
-			
+Thanks to [Una Kravets](www.twitter.com/una) for helping review this post!
