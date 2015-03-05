@@ -36,11 +36,52 @@ Now for the nerdy stuff, so what is SMIL and how does it relate to SVG? SVG is a
 
 SVG animations are simular to CSS animations as they have keyframes, easing curves, etc. but, it's just presented in a different syntax. One of the downsides of SMIL is that it doesn't work with any version of IE and Opera Mini. [CanIUse](http://caniuse.com/#feat=svg-smil)
 
-### Animate Tag
+### The `animate` Element
 
-`<animate/>`tag structure
+The `<animate/>` element is used to animate a single attribute or property over time. 
+
+The basic structure:
+
+	<animate
+	xlink:href="#your-item"
+	attributeName="cx"
+	from="20"
+	to="450"
+	dur="1s"
+	fill="freeze"
+	/>
+	
+* `xlink:href` - selects the element you want to animate. If `xlink:href` is not defined the animation will default to its parent element.
+* `attributeName` - defines the attribute of the element selected.
+* `from` -> `to` - defines the values of the attribute you are animating. Think of them as the same as `from` `to` in CSS.
+* `dur` - duration of animation
+* `fill` - same concept as `animation-fill-mode` property in CSS. I defines what to do with the element after the animation is finished.
+
+Getting fancy with Keyframes:
+
+	<animate
+	xlink:href="#your-item"
+	attributeName="cx"
+	from="20"
+	to="450"
+	dur="1s"
+	fill="freeze"
+	
+	values="20; 10; 30; 40; 450"
+	keyTimes="0; .25; .5; .75; 1"
+	
+	/>
+
+* `values` - Above we defined `from` and `to`, with the `values` we are defining how that changes over time in more detail.
+* `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
+
+
+
  Specify the target for the animation using `xlink:href`
  `attributeName` & `attributeType`
+ The `dur` attribute is similar to the `animation-duration` equivalent in CSS.
+
+
 
 ### How I Animate
 
