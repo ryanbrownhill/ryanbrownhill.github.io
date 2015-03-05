@@ -1,0 +1,36 @@
+.jskfjd{}
+
+@keyframes bounce {
+    0% {
+        top: 0;
+        animation-timing-function: ease-in;
+    }
+    15% {
+        top: 200px;
+        animation-timing-function: ease-out;
+    }
+    30% {
+        top: 70px;
+        animation-timing-function: ease-in;
+    }
+    45% {
+        top: 200px;
+        animation-timing-function: ease-out;
+    }
+    60% {
+        top: 120px;
+        animation-timing-function: ease-in;
+    }
+    75% {
+        top: 200px;
+        animation-timing-function: ease-out;
+    }
+    90% {
+        top: 170px;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        top: 200px;
+        animation-timing-function: ease-out;
+    }
+}

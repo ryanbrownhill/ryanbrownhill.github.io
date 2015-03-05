@@ -90,7 +90,7 @@ Collaborating on a Project:
 
 [Improve UX Through Front-End Performance](http://alistapart.com/article/improving-ux-through-front-end-performance)
 
-[Keep Users updated udring long load times](http://www.uxbooth.com/articles/keep-users-updated-during-long-load-times/)
+[Keep Users updated during long load times](http://www.uxbooth.com/articles/keep-users-updated-during-long-load-times/)
 
 [How to integrate waiting time user expereince](http://blog.usabilla.com/how-to-integrate-waiting-time-user-experience/)
 
@@ -115,14 +115,9 @@ Tools:
 
 Animation: 
 
-Beginner:
-
 [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 
 [CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
-
-
-Advanced:
 
 [High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
 
@@ -134,13 +129,20 @@ Advanced:
 
 [Animatable Properties](http://leaverou.github.io/animatable/)
 
+SVG:
+
 [SVG Animations](http://css-tricks.com/guide-svg-animations-smil/)
 
 [SVG - Animated Line](http://jakearchibald.com/2013/animated-line-drawing-svg/)
 
+[SVG Animation with SMIL vs CSS](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil)
+
+Timing Functions:
+
 [Transition-Timing-Function](http://css-tricks.com/almanac/properties/t/transition-timing-function/)
 
 [Undersatnding CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
+
 
 
 Libraries:
@@ -167,6 +169,8 @@ ThoughtBot's collection of [Open Source Tools](http://thoughtbot.com/open-source
 
 [Singularity Grid System](https://github.com/at-import/Singularity)
 
+[Surge](https://surge.sh/)
+
 ## Brand:
 [Marketers Guide to Developing a Strong Brand](http://blog.hubspot.com/blog/tabid/6307/bid/34238/The-Marketer-s-Guide-to-Developing-a-Strong-Brand-Identity.aspx)
 
@@ -179,6 +183,8 @@ Keyboard Shortcuts:
 Highlight the property you want and Press-D to change all attributes on the page
 
 [Emmit](http://emmet.io/ )
+
+[Best SublimeText 3 Features](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
 
 ## Sass:
 

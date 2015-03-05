@@ -1,0 +1,34 @@
+@keyframes orange-circle {
+    0% {
+        cy: 50;
+        animation-timing-function: ease-in;
+    }
+    15% {
+        cy: 250;
+        animation-timing-function: ease-out;
+    }
+    30% {
+        cy: 120;
+        animation-timing-function: ease-in;
+    }
+    45% {
+        cy: 250;
+        animation-timing-function: ease-out;
+    }
+    60% {
+        cy: 170;
+        animation-timing-function: ease-in;
+    }
+    75% {
+        cy: 250;
+        animation-timing-function: ease-out;
+    }
+    90% {
+        cy: 210;
+        animation-timing-function: ease-in;
+    }
+    100% {
+        cy: 250;
+        animation-timing-function: ease-out;
+    }
+}
