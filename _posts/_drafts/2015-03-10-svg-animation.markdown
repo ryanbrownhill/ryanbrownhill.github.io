@@ -40,7 +40,7 @@ SVG animations are simular to CSS animations as they have keyframes, easing curv
 
 The `<animate/>` element is used to animate a single attribute or property over time. 
 
-The basic structure:
+#### The basic structure:
 
 	<animate
 	xlink:href="#your-item"
@@ -57,7 +57,7 @@ The basic structure:
 * `dur` - duration of animation, similar to the `animation-duration` in CSS.
 * `fill` - same concept as `animation-fill-mode` property in CSS. I defines what to do with the element after the animation is finished.
 
-Getting fancy with Keyframes:
+#### Getting fancy with Keyframes:
 
 	<animate
 	xlink:href="#your-item"
@@ -76,7 +76,7 @@ Getting fancy with Keyframes:
 * `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
 
 
-### Easing Curves
+#### Getting EVEN fancier with Easing Curves:
 
 So how to you make the BEAUTIFUL easing curves with SVG animation? I will show you how! 		
 ![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-03.png)
