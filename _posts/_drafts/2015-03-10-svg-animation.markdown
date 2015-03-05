@@ -16,7 +16,7 @@ Its basically a GIF on steroids.
 
 ## Exporting SVG
 
-There are many applications that export SVG in the world but I only have experience with Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. 
+There are many applications that export SVG in the world but I only have experience with Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. Illustrator uses layers where as Sketch uses paths for id selectors. Paths are better for this because you wont have to break up your illustrator doc into a layer for each SVG object. 
 
 If you want to know more about SVG Exporting, Alex Walker did a post about this on [sitepoint.](http://www.sitepoint.com/designers-guide-working-with-svg/)
 
