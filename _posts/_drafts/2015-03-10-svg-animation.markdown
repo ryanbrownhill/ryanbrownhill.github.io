@@ -57,7 +57,7 @@ The `<animate/>` element is used to animate a single attribute or property over 
 * `dur` - duration of animation, similar to the `animation-duration` in CSS.
 * `fill` - same concept as `animation-fill-mode` property in CSS. It defines what to do with the element after the animation is finished.
 
-Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from CSS to SVG.
+Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from SVG to CSS.
 ![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-04.png)
 
 #### Getting fancy with Keyframes:
@@ -78,7 +78,7 @@ Now lets look how this looks like when translated to CSS. I added color highligh
 * `values` - Above we defined `from` and `to`, with the `values` we are defining how that changes over time in more detail just like keyframes.
 * `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
 
-Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from CSS to SVG.
+Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from SVG to CSS.
 ![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-05.png)
 
 
