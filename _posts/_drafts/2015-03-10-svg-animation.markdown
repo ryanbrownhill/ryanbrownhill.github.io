@@ -10,15 +10,15 @@ categories: animation fed
 
 SVG stands for Scalable Vector Graphics. Which means you can scale the graphic and it will never ever pixelate. This post I am going to be diving into animating these SVGs!
 
-Animating SVGs is **SUPER EXCITING!** There are so many attibutes you can animate and you can even style the animation with CSS! Its like animating with a shape layer in After Effects. Its like having a GIF that you can scale, style and tweek!
+Animating SVGs is **SUPER EXCITING!** There are so many attibutes you can animate and you can even style the animation with CSS! Its like animating with a shape layer in After Effects. Its like having a GIF that you can scale, style and tweak!
 Its basically a GIF on steroids.
 
 
 ## Exporting SVG
 
-There are many applications that export SVG in the world but I only have experience with Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. 
+There are many applications that export SVG (like __, ___< and ___), but the most popular are Illustrator & Sketch. When exporting from these applications I noticed some of differences. Overall, Illustrator exports messy SVG code and Sketch exported clean code with some extra perks. For example: Sketch exports the path name to a `id="path-name"` in the SVG file, and does the same for groups on the `<g>` tag. This is saves a ton of time so that when you write your animations you have the id selector there ready for you to control. So overall when exporting SVG file - I recommend Sketch. *(sidenotee: Illustrator does the same thing, though, so I would be careful with this remark, be more specific)*
 
-If you want to know more about SVG Exporting, Alex Walker did a post about this on [sitepoint.](http://www.sitepoint.com/designers-guide-working-with-svg/)
+If you want to know more about SVG Exporting, Alex Walker did a post about this on [Sitepoint.](http://www.sitepoint.com/designers-guide-working-with-svg/)
 
 
 ## Styling Properties
@@ -32,9 +32,9 @@ There are so many properties you can use when animating SVGs its AMAZING! You ca
 
 ### What is SMIL
 
-Now for the nerdy stuff, so what is SMIL and how does it relate to SVG? SVG is a host language for SMIL Animation. SVG's animations have the contstraints and features that are permitted by the [SMIL Animation Spec](http://www.w3.org/TR/2001/REC-smil-animation-20010904/). SVG's also has SVG-specific rules stated in [W3 SVG Animation Spec](http://www.w3.org/TR/SVG/animate.html).
+Now for the nerdy stuff: what is SMIL and how does it relate to SVG? SMIL Stands for ______, and it is the ______ to which SVG is a host. SVG's animations have the contstraints and features that are permitted by the [SMIL Animation Spec](http://www.w3.org/TR/2001/REC-smil-animation-20010904/). SVG's also have specific rules, such as ____, as stated in [W3 SVG Animation Spec](http://www.w3.org/TR/SVG/animate.html).
 
-SVG animations are simular to CSS animations as they have keyframes, easing curves, etc. but, it's just presented in a different syntax. One of the downsides of SMIL is that it doesn't work with any version of IE and Opera Mini. [CanIUse](http://caniuse.com/#feat=svg-smil)
+SVG animations are simular to CSS animations because they have keyframes, easing curves, etc. but, it's presented in a different syntax. *One of the downsides of SMIL is that it doesn't work with any version of IE and Opera Mini. [CanIUse](http://caniuse.com/#feat=svg-smil)*
 
 ### The `animate` Element
 
@@ -51,11 +51,13 @@ The `<animate/>` element is used to animate a single attribute or property over 
 	fill="freeze"
 	/>
 	
+*(side note: it might be helpful to have a tabe of svg --> css properties like SMIL comparision to CSS animation)*
+	
 * `xlink:href` - selects the element you want to animate. If `xlink:href` is not defined the animation will default to its parent element.
 * `attributeName` - defines the attribute of the element selected.
 * `from` -> `to` - defines the values of the attribute you are animating. Think of them as the same as `from` `to` in CSS.
 * `dur` - duration of animation, similar to the `animation-duration` in CSS.
-* `fill` - same concept as `animation-fill-mode` property in CSS. I defines what to do with the element after the animation is finished.
+* `fill` - same concept as `animation-fill-mode` property in CSS. It defines what to do with the element after the animation is finished.
 
 #### Getting fancy with Keyframes:
 
@@ -81,8 +83,9 @@ The `<animate/>` element is used to animate a single attribute or property over 
 So how to you make the BEAUTIFUL easing curves with SVG animation? I will show you how! 		
 ![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-03.png)
 
-Above you see the CSS `@keyframe` animation structure on the left and on the right the SVG animation structure. I added color highlights so you can see where the attributes go when translated from CSS to SVG.
-Note there is no CSS property called `cy`. I have it there as a place holder to gain a better understanding of SVG animation structure.
+Above you see the CSS `@keyframe` animation structure on the left and on the right the SVG animation structure. I added color highlights so you can see how the attributes go when translated from CSS to SVG.
+
+*Note there is no CSS property called `cy`. I have it there as a place holder to gain a better understanding of SVG animation structure.*
 
 #### CSS to SMIL:
 * `cy` property = `attributeName="cy"`
@@ -96,13 +99,13 @@ Things that don't translate from CSS to SVG animation are pre-defined cubic-bezi
 
 ### How I Animate
 
-* Define Shape/Path for Animation
-* Define Property to Animate
-* List out Property Values
-* Define Percentage over time for those values.
-* Map out the easing curves between keyframes.
+1. Define Shape/Path for Animation
+2. Define Property to Animate
+3. List out Property Values
+4. Define Percentage over time for those values.
+5. Map out the easing curves between keyframes.
 
-### Other Cool things:
+### Other Cool Things:
 
 * Animate along path with `<animateMotion>`
 * Interactivity (kinda) Starting animation with Click `begin="click"` 
