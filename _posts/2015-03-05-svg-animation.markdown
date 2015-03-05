@@ -1,11 +1,8 @@
 ---
 layout: post
-title:  "SVG Animations"
-date:   2015-03-10 17:42:59
+title:  "SVG Animation"
+date:   2015-03-05 5:00:00
 categories: animation fed
----
-
-# SVG Animation
 ---
 
 SVG stands for Scalable Vector Graphics. Which means you can scale the graphic and it will never ever pixelate. This post I am going to be diving into animating these SVGs!
@@ -25,7 +22,7 @@ If you want to know more about SVG Exporting, Alex Walker did a post about this 
 
 There are so many properties you can use when animating SVGs its AMAZING! You can look at the [SVG Styling Properties Documentation](http://www.w3.org/TR/SVG2/styling.html#SVGStylingProperties) to see all the attributes. Some of these styling you might be familiar with from CSS. Below I have pulled out the styling properties that are unique to SVGs.
 
-![svg-properties](../../images/posts/svg-animation/svg-properties.png)
+![svg-properties](/images/posts/svg-animation/svg-properties.png)
 
 
 ## SVG Animation Syntax
@@ -58,7 +55,7 @@ The `<animate/>` element is used to animate a single attribute or property over 
 * `fill` - same concept as `animation-fill-mode` property in CSS. It defines what to do with the element after the animation is finished.
 
 Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from SVG to CSS.
-![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-04.png)
+![SVG Animation Breakdown](/images/posts/svg-animation/svg-ani-04.png)
 
 #### Getting fancy with Keyframes:
 
@@ -79,13 +76,13 @@ Now lets look how this looks like when translated to CSS. I added color highligh
 * `keyTimes` - keyTimes is defining the % of the animation. The order of `keyTimes` corrolates directly to the order of `values`. The `keyTimes` list has to start with `0` and `100`
 
 Now lets look how this looks like when translated to CSS. I added color highlights so you can see where the attributes go when translated from SVG to CSS.
-![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-05.png)
+![SVG Animation Breakdown](/images/posts/svg-animation/svg-ani-05.png)
 
 
 #### Getting EVEN fancier with Easing Curves:
 
 So how to you make the BEAUTIFUL easing curves with SVG animation? I will show you how! 		
-![SVG Animation Breakdown](../../images/posts/svg-animation/svg-ani-03.png)
+![SVG Animation Breakdown](/images/posts/svg-animation/svg-ani-03.png)
 
 Above you see the CSS `@keyframe` animation structure on the left and on the right the SVG animation structure. I added color highlights so you can see how the attributes go when translated from CSS to SVG.
 
