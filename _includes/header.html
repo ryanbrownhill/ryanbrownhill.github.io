@@ -17,10 +17,11 @@
       <div class="trigger">
         {% for page in site.pages %}
           {% if page.title %}
-          <a class="page-link" href="http://ryanbrownhill.com/about/">{{ page.title }}</a>
+                    <a class="page-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
+
     </nav>
 
   </div>

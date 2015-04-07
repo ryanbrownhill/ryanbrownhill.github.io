@@ -7,8 +7,7 @@ body, h1, h2, h3, h4, h5, h6,
 p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
     margin: 0;
-    padding: 0;
-}
+    padding: 0; }
 /**
  * Basic styling
  */
@@ -32,6 +31,7 @@ p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
+    line-height: 200%;
 }
 
 
@@ -79,15 +79,18 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 600;
+@extend %font-title
 }
+
+
 
 /**
  * Links
  */
+
 a {
     color: $brand-color;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:visited {
         color: darken($brand-color, 15%);
@@ -124,9 +127,10 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #eef;
+    color: rgb(73, 73, 73);
+    background-color: rgb(230, 230, 230);
+
+
 }
 
 code {

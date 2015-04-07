@@ -1,0 +1,5 @@
+Snap SVG for animation tutorial
+
+[Ian Walking through all features](http://svg.dabbles.info/)
+
+[Tuts+ how to manipulate & animate svg](http://webdesign.tutsplus.com/articles/how-to-manipulate-and-animate-svg-with-snapsvg--cms-21323)
