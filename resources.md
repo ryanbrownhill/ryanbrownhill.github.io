@@ -1,8 +1,8 @@
 ---
-layout: post
-title:  "All The Resources"
-date:   2015-02-26 17:42:59
-categories: resources
+layout: default
+title:  "Resources"
+permalink: /resources/
+
 ---
 
 ## Applications

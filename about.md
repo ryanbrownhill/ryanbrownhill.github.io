@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: http://ryanbrownhill.com/about/
+permalink: /about/
 ---
 
 ![headshot](/images/headshot.jpg)
