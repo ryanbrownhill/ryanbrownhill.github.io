@@ -3,21 +3,20 @@
  */
 
 .site-header {
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
-
     // Positioning context for the mobile navigation icon
     position: relative;
 }
 
 .site-title {
     // @extend %font-title
-    text-decoration: uppercase;
+    @extend %font-title;
+    text-decoration: none;
     font-size: 1em;
     line-height: 56px;
     margin-bottom: 0;
     float: left;
+    font-weight: black;
 
     &,
     &:visited {
@@ -89,8 +88,11 @@
 }
 
 .header-img {
-    max-height: 50px;
-    max-width: 50px;
+        background-image: url("/images/header-logo.png");
+        height: 50px;
+        width: 50px;
+        display: inline-block;
+        background-size: 100%;
 }
 
 /**
