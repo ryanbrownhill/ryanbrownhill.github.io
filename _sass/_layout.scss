@@ -4,6 +4,7 @@
 
 .site-header {
     min-height: 56px;
+    background-color: $grey-1;
     // Positioning context for the mobile navigation icon
     position: relative;
 }
@@ -12,11 +13,11 @@
     // @extend %font-title
     @extend %font-title;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2em;
     line-height: 56px;
     margin-bottom: 0;
     float: left;
-    font-weight: black;
+    font-weight: 900;
 
     &,
     &:visited {
@@ -88,9 +89,10 @@
 }
 
 .header-img {
-        background-image: url("/images/header-logo.png");
-        height: 50px;
-        width: 50px;
+        background-image: url("/images/logo.svg");
+        height: 2em;
+        width: 2em;
+        margin: 12px 0px 0px 6px;
         display: inline-block;
         background-size: 100%;
 }
@@ -217,18 +219,16 @@
 }
 
 .home-banner {
-   background: linear-gradient(rgba(100, 100, 100, 0.7), rgba(0, 0, 0, 0.7)), 50%,
-   url("/images/home-banner.jpg");
-    background-size: cover;
-    background-position: 10px;
+    background-color: $grey-1;
     height: 300px;
 
     h1{
         @extend %font-title; 
-         color: white;
-         font-size: 4em;
-         font-weight: 700;
-         @include media-query($media-sm) {
+        color: $grey-4;
+        font-size: 4em;
+        font-weight: 900;
+        text-align: center;
+        @include media-query($media-sm) {
         font-size: 3em;
     }
     }

@@ -6,9 +6,17 @@
 // Our variables
 
 $spacing-unit:     50px;
+
+//Colors
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #1893E7;
+$brand-secondary: #FFBB66;
+$grey-1: #F7F7F7;
+$grey-2: #91A4AD;
+$grey-3: #617D8A;
+$grey-4: #3B4C54;
+
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -43,6 +51,6 @@ $media-lg: 			1200px;
         "syntax-highlighting"
 ;
 
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:400,700,700italic,900);
 @import url(http://fonts.googleapis.com/css?family=Lato:300,300italic);
 
