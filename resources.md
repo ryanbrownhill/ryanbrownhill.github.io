@@ -106,6 +106,8 @@ Collaborating on a Project:
 
 [Dave Rupert - Responsive Web Design](https://speakerdeck.com/davatron5000/rwd-bloat)
 
+[Automate Front End Performance](https://speakerdeck.com/kitt/fluent-2015-automate-front-end-performance)
+
 
 ## UI Patterns
 
@@ -152,6 +154,16 @@ SVG:
 [SVG Animation with SMIL vs CSS](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil)
 
 [SVG Coordinate System](http://sarasoueidan.com/blog/svg-coordinate-systems/)
+
+[SVG Pocket Guide](http://svgpocketguide.com/book/)
+
+SVG Optimization Tools: 
+
+[SVGO](https://github.com/svg/svgo)
+
+[SVG Now](https://github.com/davidderaedt/SVG-NOW)
+
+
 
 Timing Functions:
 
