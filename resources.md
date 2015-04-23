@@ -34,7 +34,7 @@ permalink: /resources/
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
 
-[Learn Git - Kevin Subtle](http://kevinsuttle.com/learn-git/)
+[Learn Git - Kevin Suttle](http://kevinsuttle.com/learn-git/)
 
 ### Github Tools:
 
