@@ -89,9 +89,74 @@ Collaborating on a Project:
 
 ## Animation:
 
-
 ### Gifs:
 [Making Gifs Beautiful](https://medium.com/@InVisionApp/7-tips-for-designing-awesome-animated-gifs-d51af4bae8b7)
+
+
+### CSS Animation: 
+
+[CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
+
+[CSS Transtions & Keyframes Intro](http://css3.bradshawenterprises.com/transitions/)
+
+[CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
+
+[High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
+
+[Transition Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
+
+[Animate.CSS](http://daneden.github.io/animate.css/)
+
+[Chrome Animation Controls](http://valhead.com/2015/01/06/quick-tip-chrome-animation-controls/)
+
+[Animatable Properties](http://leaverou.github.io/animatable/)
+
+
+### SVG Animation:
+
+[SVG Animations](http://css-tricks.com/guide-svg-animations-smil/)
+
+[SVG - Animated Line](http://jakearchibald.com/2013/animated-line-drawing-svg/)
+
+[SVG Animation with SMIL vs CSS](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil)
+
+[SVG Coordinate System](http://sarasoueidan.com/blog/svg-coordinate-systems/)
+
+[SVG Pocket Guide](http://svgpocketguide.com/book/)
+
+[Styling & Animating SVG's with CSS](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/34)
+
+### SVG Optimization Tools: 
+
+[SVGO](https://github.com/svg/svgo)
+
+[SVG Now](https://github.com/davidderaedt/SVG-NOW)
+
+### Timing Functions:
+
+[Transition-Timing-Function](http://css-tricks.com/almanac/properties/t/transition-timing-function/)
+
+[Undersatnding CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
+
+### Libraries:
+
+[BounceJS](http://bouncejs.com/)
+
+## CSS:
+ 
+Tools:
+
+[CSS Ruler](http://katydecorah.com/css-ruler/)
+
+[CSS Blending Effects](http://sarasoueidan.com/blog/compositing-and-blending-in-css/?mc_cid=3347508929&mc_eid=c3027ae9de)
+
+[Codrops - CSS Ref](http://tympanus.net/codrops/css_reference/)
+
+## Syntax:
+
+[BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
+
+[BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
 
 
 ## Web Performance
@@ -118,73 +183,6 @@ Collaborating on a Project:
 ## Trend Research
 
 [Motion Design Trends For UI](https://econsultancy.com/blog/65140-14-motion-design-trends-for-web-and-mobile-interfaces#i.cg3rva13nzfgbw)
-
-## CSS: 
-Tools:
-
-[CSS Ruler](http://katydecorah.com/css-ruler/)
-
-
-[CSS Blending Effects](http://sarasoueidan.com/blog/compositing-and-blending-in-css/?mc_cid=3347508929&mc_eid=c3027ae9de)
-
-[Codrops - CSS Ref](http://tympanus.net/codrops/css_reference/)
-
-Animation: 
-
-[CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
-
-[CSS Transtions & Keyframes Intro](http://css3.bradshawenterprises.com/transitions/)
-
-[CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
-
-[High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
-
-[Transition Animations](http://learn.shayhowe.com/advanced-html-css/transitions-animations/)
-
-[Animate.CSS](http://daneden.github.io/animate.css/)
-
-[Chrome Animation Controls](http://valhead.com/2015/01/06/quick-tip-chrome-animation-controls/)
-
-[Animatable Properties](http://leaverou.github.io/animatable/)
-
-
-SVG:
-
-[SVG Animations](http://css-tricks.com/guide-svg-animations-smil/)
-
-[SVG - Animated Line](http://jakearchibald.com/2013/animated-line-drawing-svg/)
-
-[SVG Animation with SMIL vs CSS](http://codepen.io/noahblon/blog/an-intro-to-svg-animation-with-smil)
-
-[SVG Coordinate System](http://sarasoueidan.com/blog/svg-coordinate-systems/)
-
-[SVG Pocket Guide](http://svgpocketguide.com/book/)
-
-SVG Optimization Tools: 
-
-[SVGO](https://github.com/svg/svgo)
-
-[SVG Now](https://github.com/davidderaedt/SVG-NOW)
-
-
-
-Timing Functions:
-
-[Transition-Timing-Function](http://css-tricks.com/almanac/properties/t/transition-timing-function/)
-
-[Undersatnding CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
-
-
-
-Libraries:
-
-[BounceJS](http://bouncejs.com/)
-
-Syntax:
-
-[BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
-
-[BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
 
 
 ## Javscript:
@@ -244,7 +242,6 @@ Highlight the property you want and Press-D to change all attributes on the page
 [COPE - Create one, Publish Everywhere](http://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
 
 ## Inspiration:
-
 
 
 ### Code:
