@@ -133,6 +133,8 @@ Animation:
 
 [CSS Animation for Beginners](http://robots.thoughtbot.com/css-animation-for-beginners)
 
+[CSS Transtions & Keyframes Intro](http://css3.bradshawenterprises.com/transitions/)
+
 [CSS3 Animations vs Transitions](http://www.kirupa.com/html5/css3_animations_vs_transitions.htm)
 
 [High Performance Animations](http://www.html5rocks.com/en/tutorials/speed/high-performance-animations/)
@@ -144,6 +146,7 @@ Animation:
 [Chrome Animation Controls](http://valhead.com/2015/01/06/quick-tip-chrome-animation-controls/)
 
 [Animatable Properties](http://leaverou.github.io/animatable/)
+
 
 SVG:
 
