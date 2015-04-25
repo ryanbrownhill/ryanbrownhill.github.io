@@ -33,15 +33,4 @@ window.onload = function() {
     $("#welcome").addClass("fadeinup");
 };
 
-//Snap SVG 
-
-    var computer = Snap("#computer");
-    var computerLoad = Snap.load("images/computer.svg", function ( loadedFragment ) { computer.append( loadedFragment ); } );
-
-    var computerFace = Snap.select('#computer--face');
-    var computerEyes = Snap.select('#computer--eyes');
-
-    computer.animate({ x: 10}, 1000, mina.bounce);
-
-
 </script>
