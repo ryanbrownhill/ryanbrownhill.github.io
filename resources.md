@@ -87,10 +87,9 @@ Collaborating on a Project:
 
 [Art of UI Animations](http://markgeyer.com/pres/the-art-of-ui-animations/#/)
 
-## Animation:
+[Designing with Animation](https://www.youtube.com/watch?v=TMe0WnkF1Lc&feature=c4-overview&list=UURx1y52pfeMwbuer9Vh2u-A)
 
-### Gifs:
-[Making Gifs Beautiful](https://medium.com/@InVisionApp/7-tips-for-designing-awesome-animated-gifs-d51af4bae8b7)
+## Developing Animation:
 
 
 ### CSS Animation: 
@@ -138,9 +137,14 @@ Collaborating on a Project:
 
 [Undersatnding CSS Timing Functions](http://www.smashingmagazine.com/2014/04/15/understanding-css-timing-functions/)
 
+[Robert Penner's Easing Functions](http://robertpenner.com/easing/)
+
 ### Libraries:
 
 [BounceJS](http://bouncejs.com/)
+
+### Gifs:
+[Making Gifs Beautiful](https://medium.com/@InVisionApp/7-tips-for-designing-awesome-animated-gifs-d51af4bae8b7)
 
 ## CSS:
  

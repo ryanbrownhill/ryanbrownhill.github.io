@@ -1,0 +1,62 @@
+// Animation SASS
+// 
+// Timing Functions:
+// 
+
+$ease--in : cubic-bezier(0.24, 0, 0, 0.96);
+$ease--out : cubic-bezier(0.725, 0.005, 0.695, 1.000);
+
+$bounce--out : cubic-bezier(0.520, -0.270, 0.345, 1.005);
+$bounce--in : cubic-bezier(0.805, 0.005, 0.410, 1.280);
+$bounce--inout : cubic-bezier(0.555, -0.270, 0.370, 1.350);
+
+$snap--in : cubic-bezier(1.000, 0.000, 0.765, 1.000);
+$snap--out : cubic-bezier(0.155, 0.000, 0.000, 0.995);
+$snap--inout: cubic-bezier(0.920, 0.010, 0.050, 1.000);
+
+// The Translate Variable for distance of animation.
+$translate: 20%;
+
+// SlideIn Variables
+$inframe: 0;
+$outframe: 100%;
+
+
+.fadeinup {
+    animation-name: fadeinup;
+    animation-timing-function: $ease--in;
+    animation-duration: 1s;
+}
+
+
+
+@keyframes fadeinup {
+    0% {
+        opacity: 0;
+        transform: translateY($translate);
+        
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY();
+            }
+}
+
+.leftout {
+    animation-name: leftout;
+    animation-timing-function: $ease--in;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes leftout {
+    0% {
+        transform: translateX();
+        
+    }
+
+    100% {
+        transform: translateX(200px);
+            }
+}

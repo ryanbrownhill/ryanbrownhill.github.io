@@ -8,3 +8,6 @@ twitter_username: ryan_brownhill
 github_username:  ryanbrownhill
 # Build settings
 markdown: kramdown
+
+gems:
+  - octopress-autoprefixer

@@ -95,6 +95,7 @@
         margin: 12px 0px 0px 6px;
         display: inline-block;
         background-size: 100%;
+        float: left;
 }
 
 /**
@@ -173,6 +174,9 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    z-index: 3;
+    background-color: white;
+    transform: translateX(0%);
 }
 
 .page-heading {
@@ -225,6 +229,7 @@
     border-bottom-width: 2px;
     border-bottom-color: $brand-secondary;
 
+
     h1{
         @extend %font-title; 
         color: $grey-4;
@@ -250,7 +255,8 @@
             position: relative;
             top: 50%;
             transform: translateY(-40%);
-}
+            clip: rect(110px, 160px, 170px, 60px);
+            }
 
 .banner--icon {
         position:relative;
