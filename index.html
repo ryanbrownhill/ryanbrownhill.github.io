@@ -36,12 +36,11 @@ window.onload = function() {
 //Snap SVG 
 
     var computer = Snap("#computer");
-    var computerLoad = Snap.load("images/computer.svg", function ( loadedFragment ) { computer.append( loadedFragment ); } );
+    Snap.load("images/computer.svg", function ( loadedFragment ) { computer.append( loadedFragment );
 
-    var computerFace = Snap.select('#computer--face');
-    var computerEyes = Snap.select('#computer--eyes');
+      var computerFace = computer.select("#smile");
 
-    computer.animate({ x: 10}, 1000, mina.bounce);
-
+      // computerFace.animate({ d: "M18.5232283,14.8590909 C18.2813894,14.8591049 18.3095161,14.8590909 17.2572581,14.8590909 C16.205,14.8590909 16.2900391,14.8590909 15.8698381,14.8590909 C15.501596,14.8590909 15.1798387,14.8590909 14.9681452,14.8590909 C14.7575806,14.8590909 14.5865323,15.03125 14.5865323,15.2431818 C14.5865323,16.7255682 15.785,17.93125 17.2572581,17.93125 C18.7295161,17.93125 19.9274194,16.7255682 19.9274194,15.2431818 C19.9291129,15.03125 19.758629,14.8590909 19.5475,14.8590909 C19.336371,14.8590909 18.8904842,14.8590696 18.5232283,14.8590909 Z "}, 2000);
+ } );
 
 </script>
