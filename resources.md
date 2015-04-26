@@ -125,6 +125,8 @@ Collaborating on a Project:
 
 [Styling & Animating SVG's with CSS](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/34)
 
+[Snap SVG Learning](http://svg.dabbles.info/)
+
 ### SVG Optimization Tools: 
 
 [SVGO](https://github.com/svg/svgo)
