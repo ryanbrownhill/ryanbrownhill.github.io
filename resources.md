@@ -265,16 +265,16 @@ These are the book I recommend to anyone who is interesting in learning UX proce
 1. [This is Service Design Thinking- ](http://www.amazon.com/This-Service-Design-Thinking-Basics/dp/1118156307/ref=sr_1_1?s=books&ie=UTF8&qid=1418961298&sr=1-1&keywords=this+is+service+design+thinking&pebp=1418961299763)
 This book is a great primer to what service design is and the tools that they use. This taught me a lot about user research and how to design for things that are not tangible.
 
-2. [Designing for the digital age-](http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101/ref=sr_1_1?s=books&ie=UTF8&qid=1418961284&sr=1-1&keywords=designing+for+the+digital+age&pebp=1418961286348)
+2. [Designing for the digital age](http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101/ref=sr_1_1?s=books&ie=UTF8&qid=1418961284&sr=1-1&keywords=designing+for+the+digital+age&pebp=1418961286348)
+
 Amazing book very dense and a long read but it was the first book I read about designing for interaction and products. It shows how the product design world is structured.
 
-3. [Designing Interface-](http://www.amazon.com/Designing-Interfaces-Jenifer-Tidwell/dp/1449379702/ref=pd_sim_b_1?ie=UTF8&refRID=1B8EM0PGB9KCQW1JRT2Z)
-Goes though everything interface in detail.
+3. [Designing Interface](http://www.amazon.com/Designing-Interfaces-Jenifer-Tidwell/dp/1449379702/ref=pd_sim_b_1?ie=UTF8&refRID=1B8EM0PGB9KCQW1JRT2Z) Goes though everything interface in detail.
 
 4. [How to Make Sense of Any Mess](http://www.amazon.com/How-Make-Sense-Any-Mess/dp/1500615994/ref=sr_1_1?s=books&ie=UTF8&qid=1418961437&sr=1-1&keywords=make+sense+of+any+mess&pebp=1418961440157)
 Amazing book about information architecture
 
-5. [Don’t Make me Think-](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?s=books&ie=UTF8&qid=1418961361&sr=1-1&keywords=don%27t+make+me+think&pebp=1418961362533)
+5. [Don’t Make me Think](http://www.amazon.com/Dont-Make-Think-Revisited-Usability/dp/0321965515/ref=sr_1_1?s=books&ie=UTF8&qid=1418961361&sr=1-1&keywords=don%27t+make+me+think&pebp=1418961362533)
 Great book about designing intuitive interaction and information design 
 
 6. [101 design methods-](http://www.amazon.com/101-Design-Methods-Structured-Organization/dp/1118083466/ref=sr_1_1?s=books&ie=UTF8&qid=1418961312&sr=1-1&keywords=101+design+methods&pebp=1418961313509)
