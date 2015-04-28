@@ -11,6 +11,14 @@ permalink: /resources/
 	* MacDown
 	* ImageOptim
 
+Things to install:
+
+- Homebrew
+	- Use brew to install nvm
+- VirtualBox
+- Vagrant
+
+
 ## Tools
 
 ### Prototyping Tools:
@@ -29,12 +37,13 @@ permalink: /resources/
 
 [Sam Richard - Presentations](http://snugug.com/presentations)
 
-
 ## GitHub:
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
 
 [Learn Git - Kevin Suttle](http://kevinsuttle.com/learn-git/)
+
+[Git Guide](http://rogerdudler.github.io/git-guide/)
 
 ### Github Tools:
 
@@ -141,6 +150,11 @@ Collaborating on a Project:
 
 [Robert Penner's Easing Functions](http://robertpenner.com/easing/)
 
+[SnapSVG Cubic Bezier Solver](https://github.com/arian/cubic-bezier)
+
+[SnapSVG Cubic Bezier Conversion](http://stackoverflow.com/questions/25265197/how-to-convert-a-cubic-bezier-value-to-a-custom-mina-easing-snap-svg)
+
+
 ### Libraries:
 
 [BounceJS](http://bouncejs.com/)
@@ -157,6 +171,12 @@ Tools:
 [CSS Blending Effects](http://sarasoueidan.com/blog/compositing-and-blending-in-css/?mc_cid=3347508929&mc_eid=c3027ae9de)
 
 [Codrops - CSS Ref](http://tympanus.net/codrops/css_reference/)
+
+[Flexbox Articles](http://cssflexbox.com/)
+
+[Flexboxin5](http://flexboxin5.com/)
+
+[Attribute Selector](https://css-tricks.com/attribute-selectors/)
 
 ## Syntax:
 
@@ -179,6 +199,8 @@ Tools:
 
 [Automate Front End Performance](https://speakerdeck.com/kitt/fluent-2015-automate-front-end-performance)
 
+[Optimizing the Wrong things](http://ericleads.com/2013/04/youre-optimizing-the-wrong-things/?utm_content=bufferb21ff&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer)
+
 
 ## UI Patterns
 
@@ -190,9 +212,14 @@ Tools:
 
 [Motion Design Trends For UI](https://econsultancy.com/blog/65140-14-motion-design-trends-for-web-and-mobile-interfaces#i.cg3rva13nzfgbw)
 
+## Typography
+
+[Icomoon](https://icomoon.io/)
 
 ## Javscript:
 [Advanced Javascript](http://ejohn.org/apps/learn/)
+
+[Modernizr Tutorial](http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/)
 
 ## Open Source Tools
 
@@ -248,7 +275,6 @@ Highlight the property you want and Press-D to change all attributes on the page
 [COPE - Create one, Publish Everywhere](http://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
 
 ## Inspiration:
-
 
 ### Code:
 
