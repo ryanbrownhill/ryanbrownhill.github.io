@@ -138,6 +138,8 @@ Collaborating on a Project:
 
 [Snap SVG Learning](http://svg.dabbles.info/)
 
+[Intermediate Snap SVG](http://unicorn-ui.com/blog/intermediate-svg.html)
+
 ### SVG Optimization Tools: 
 
 [SVGO](https://github.com/svg/svgo)
