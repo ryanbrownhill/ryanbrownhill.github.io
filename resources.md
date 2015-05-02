@@ -58,22 +58,25 @@ For every Push:
 
 1. `git add -A`
 2. `git commit -m “insert message here"`
-3. `git push origin branch-name`
+3. `git push origin {{branch}}`
 
-Collaborating on a Project:
+### Creating a New Branch
 
-* `git checkout -b branch-name` 
-	* Makes your own branch for the first push
-* `git checkout ryan-branch` 
-	* Change branch in CLI
+* `git checkout master` 
+	* Move in to your master folder
+* `git fetch --all` 
+	* Get all updates from all remotes
+* `git pull upstream master` 
+	* Bring in the changes from this repository's develop branch
+* `git push origin master` 
+	* Put the changes on to your fork's develop branch
+* `git checkout -b {{branch}}` 
+	* Create a new branch where {{branch}} is replaced with a branch name
 * `git branch`
 	* Looks at branch - tells you what branch your own)
-* `git pull upstream master`
-	* Don't remember what this means
-* `git push origin branch-name`
-	* Pushes the local "origin" code to branch
-* `git fetch --all` 
-	* Making sure you code is the same as the  )
+* `git push -u origin {{branch}}` 
+	* Put the new branch on to your fork where `{{branch}} is replaced with the same branch name as before
+
 
 	
 * Git [emojis](http://www.emoji-cheat-sheet.com/)
@@ -137,6 +140,8 @@ Collaborating on a Project:
 [Styling & Animating SVG's with CSS](http://slides.com/sarasoueidan/styling-animating-svgs-with-css#/34)
 
 [Snap SVG Learning](http://svg.dabbles.info/)
+
+[Animate SVG Icons with Snap](http://codyhouse.co/gem/animate-svg-icons-with-css-and-snap/)
 
 [Intermediate Snap SVG](http://unicorn-ui.com/blog/intermediate-svg.html)
 
