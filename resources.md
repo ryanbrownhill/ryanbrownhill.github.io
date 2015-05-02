@@ -119,6 +119,8 @@ Collaborating on a Project:
 
 [Animatable Properties](http://leaverou.github.io/animatable/)
 
+[Page Transitions](https://css-tricks.com/add-page-transitions-css-smoothstate-js/)
+
 
 ### SVG Animation:
 
@@ -175,6 +177,8 @@ Tools:
 [Flexbox Articles](http://cssflexbox.com/)
 
 [Flexboxin5](http://flexboxin5.com/)
+
+[Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
 [Attribute Selector](https://css-tricks.com/attribute-selectors/)
 
