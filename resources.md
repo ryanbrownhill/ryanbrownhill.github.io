@@ -45,6 +45,7 @@ Things to install:
 
 [Git Guide](http://rogerdudler.github.io/git-guide/)
 
+
 ### Github Tools:
 
 [Waffle.IO](https://waffle.io) - for Issue Managment
@@ -216,9 +217,11 @@ Tools:
 [BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
 
 
-## Development Tutorials
+## Development
 
 [Call me nick](http://callmenick.com/categories/tutorials)
+
+[Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables)
 
 ## Web Performance
 
