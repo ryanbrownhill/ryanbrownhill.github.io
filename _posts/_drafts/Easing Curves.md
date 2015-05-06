@@ -100,5 +100,5 @@ There are many tools for creating cubic bezier's here are a few:
 The concept of easing curves doesn’t just apply to a single animation but can applied to delays! Which can be really fun when there are many elements on the screen animating. Here is an example of a Sine wave delay. I created this by created a Sass loop and using Compass math helpers to calculate Sine.
 
 
-<p data-height="355" data-theme-id="0" data-slug-hash="NqGxgr" data-default-tab="result" data-user="ryanbrownhill" class='codepen'>See the Pen <a href='http://codepen.io/ryanbrownhill/pen/NqGxgr/'>Sine Delay Loop</a> by Ryan Brownhill (<a href='http://codepen.io/ryanbrownhill'>@ryanbrownhill</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//assets.codepen.io/assets/embed/ei.js"></script>
+<iframe height='355' scrolling='no' src='//codepen.io/ryanbrownhill/embed/NqGxgr/?height=355&theme-id=14830' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/ryanbrownhill/pen/NqGxgr/'>Sine Delay Loop</a> by Ryan Brownhill (<a href='http://codepen.io/ryanbrownhill'>@ryanbrownhill</a>) on <a href='http://codepen.io'>CodePen</a>.
+</iframe>
