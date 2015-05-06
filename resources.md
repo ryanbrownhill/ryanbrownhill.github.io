@@ -60,6 +60,17 @@ For every Push:
 2. `git commit -m “insert message here"`
 3. `git push origin {{branch}}`
 
+### Creating a Remote
+
+* `git remote add upstream {{URL}}`
+	* adds an upstream
+* `git remote`
+	* views remotes available
+* `git fetch --all`
+	* fetches from upstream
+* `git pull upstream {{branch}}`
+	* pulls what was fetched into your branch 
+
 ### Creating a New Branch
 
 * `git checkout master` 
@@ -76,6 +87,8 @@ For every Push:
 	* Looks at branch - tells you what branch your own)
 * `git push -u origin {{branch}}` 
 	* Put the new branch on to your fork where `{{branch}} is replaced with the same branch name as before
+
+
 
 
 	
@@ -147,6 +160,8 @@ For every Push:
 
 [Intermediate Snap SVG](http://unicorn-ui.com/blog/intermediate-svg.html)
 
+[The Ultimate SVG Animation List](https://css-tricks.com/mega-list-svg-information/)
+
 ### SVG Optimization Tools: 
 
 [SVGO](https://github.com/svg/svgo)
@@ -165,6 +180,7 @@ For every Push:
 
 [SnapSVG Cubic Bezier Conversion](http://stackoverflow.com/questions/25265197/how-to-convert-a-cubic-bezier-value-to-a-custom-mina-easing-snap-svg)
 
+[Trigonometry in Sass](https://unindented.org/articles/trigonometry-in-sass/_)
 
 ### Libraries:
 
@@ -191,12 +207,18 @@ Tools:
 
 [Attribute Selector](https://css-tricks.com/attribute-selectors/)
 
+[Mastering CSS](http://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
+
 ## Syntax:
 
 [BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 [BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
 
+
+## Development Tutorials
+
+[Call me nick](http://callmenick.com/categories/tutorials)
 
 ## Web Performance
 
