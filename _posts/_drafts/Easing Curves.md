@@ -1,6 +1,6 @@
 # Crafting Easing Curves for UI
 
-Easing curves are what takes decent animations and make them FANTASTIC! The problem is that understanding how easing curves work can be a bit confusing. I hope to clear that up through this post, which stems from the interest in timing functions my previous post [After Effects to CSS](LINK TO POST). People wanted a better understanding about how easing curves work and how do design your own.
+Easing curves are what takes decent animations and make them FANTASTIC! The problem is that understanding how easing curves work can be a bit confusing. I hope to clear that up through this post, which stems from the interest in timing functions my previous post [After Effects to CSS](https://medium.com/@ryan_brownhill/after-effects-to-css-79225c1d767e). People wanted a better understanding about how easing curves work and how do design your own.
 
 An easing curve is a line that defines the acceleration pattern on a graph. Easing curves are commonly referred by many other names such as “Motion Curves”, “Timing Functions”, “Bezier Curves” or just “Curves”. The different shapes of an easing curves also has keywords like “ease in” , “ease out”, or “ease in out”.
 
@@ -8,7 +8,7 @@ An easing curve is a line that defines the acceleration pattern on a graph. Easi
 
 Easing curves are created via an (X,Y) axis. The meanings of the X and the Y can vary from application to application. For example, the (X,Y) meaning within After Effects is different than Cinema 4D. Within development, the meaning of the X and the Y states stays pretty consistent. Which is defined as Percent of Animation(Y) over Time(X).
 
-[Image]
+![Image](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/Posts/Easing_Curves/easing-curves-01.png)
 
 What does that this easing curve look like when put into practice? That's where the concepts of timing and spacing come into play.
 

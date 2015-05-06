@@ -12,7 +12,7 @@ permalink: /resources/
 	* ImageOptim
 
 Things to install:
-
+œ
 - Homebrew
 	- Use brew to install nvm
 - VirtualBox
