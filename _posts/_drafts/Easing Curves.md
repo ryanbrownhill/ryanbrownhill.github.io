@@ -45,7 +45,7 @@ Within most programming languages, there are some predefined easing curves like 
 
 In CSS there is the “global” ease that can be defined in the object class, this applies the same ease to every keyframe. For example, if you have a bounce, the animation will bounce at every keyframe.
 
-[Insert codepen example]
+[CodePen](http://codepen.io/ryanbrownhill/pen/JdYmqG)
 
 ```scss
 .object-class {
@@ -58,7 +58,7 @@ In CSS there is the “global” ease that can be defined in the object class, t
 
 You can get more precise with eases by defining them within keyframes. It is important to keep in mind that the easing curve is defined in the percentage value *before* you want the ease to happen.
 
-[Insert codepen example]
+[CodePen](http://codepen.io/ryanbrownhill/pen/JdYejX)
 
 ```scss
 @keyframes animation-name {
