@@ -8,7 +8,7 @@ An easing curve is a line that defines the acceleration pattern on a graph. Easi
 
 Easing curves are created via an (X,Y) axis. The meanings of the X and the Y can vary from application to application. For example, the (X,Y) meaning within After Effects is different than Cinema 4D. Within development, the meaning of the X and the Y states stays pretty consistent. Which is defined as Percent of Animation(Y) over Time(X).
 
-![Image](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/Posts/Easing_Curves/easing-curves-01.png)
+![Animation Percent over Time Graph](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/Posts/Easing_Curves/curve--linear.png)
 
 What does that this easing curve look like when put into practice? That's where the concepts of timing and spacing come into play.
 
@@ -16,11 +16,12 @@ What does that this easing curve look like when put into practice? That's where 
 
 Timing and Spacing Timing is the duration for an animation to finish. Spacing is the space between each “frame” but in our case it is the space between the each percent of animation. Below I have showcased how this spacing relates to an easing curve. Think of vertical = fast and horizontal = slow.
 
-[Spacing of Graph & Dot - Linear]
+![Linear spacing of Graph & Dot](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/main-blog/images/posts/easing-curves/spacing--linear.png) [Created In CodePen](http://codepen.io/ryanbrownhill/pen/EjVdeY)
 
-[Spacing of Graph & Dot - Ease In]
+![Ease In Spacing of Graph & Dot](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/main-blog/images/posts/easing-curves/spacing--easein.png)[Created In CodePen](http://codepen.io/ryanbrownhill/pen/VLvEre)
 
-[Spacing of Graph & Dot - Custom]
+![Ease Out Spacing of Graph & Dot](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/main-blog/images/posts/easing-curves/spacing--easeout.png) [Created In CodePen](http://codepen.io/ryanbrownhill/pen/MwaPBZ)
+
 
 ## Easing Curves within Development
 
