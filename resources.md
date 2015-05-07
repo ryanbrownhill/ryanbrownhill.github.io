@@ -37,6 +37,8 @@ Things to install:
 
 [Sam Richard - Presentations](http://snugug.com/presentations)
 
+[SWIG - Simplified Wrapper and Interface Generation](http://paularmstrong.github.io/swig/)
+
 ## GitHub:
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
@@ -189,6 +191,10 @@ For every Push:
 
 ### Gifs:
 [Making Gifs Beautiful](https://medium.com/@InVisionApp/7-tips-for-designing-awesome-animated-gifs-d51af4bae8b7)
+
+### iOS Animation:
+
+[QuartzCode](http://quartzcodeapp.com/)
 
 ## CSS:
  
