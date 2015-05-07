@@ -29,12 +29,15 @@ Easing curves within development are called “Timing Functions” which are mat
 
 The structure of a cubic-bezier:
 
-[Image]
-`cubic-bezier(x1, x2, y1, y2)`
+![Cubic Bezier](/Users/ryanbrownhill/Dropbox/_4_SIDE_PROJECTS/BLOGS/main-blog/images/posts/easing-curves/cubicbezier-06.png)
 
-Within most programming languages, there are some predefined easing curves like `easeIn`, `easeOut`, and `easeInOut`. Be sure to check the documentation to see which curves are predefined. Below I listed the easing curves that are predefined within CSS.
+Within most programming languages, there are some predefined easing curves like `ease-in`, `ease-out`, and `ease-in-out`. Be sure to check the documentation to see which curves are predefined. Below I listed the easing curves that are predefined within CSS.
 
-`easeIn` = `cubic-bezier(x1, x2, y1, y2)`
+`ease-in` = `cubic-bezier(.42, 0, 1, 1)`
+
+`ease-out` = `cubic-bezier(0, 0, .58, 1)`
+
+`ease-in-out` = `cubic-bezier(.42, 0, .58, 1)`
 
 ### Defining Easing Curves in CSS
 
