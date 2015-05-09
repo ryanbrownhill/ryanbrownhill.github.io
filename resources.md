@@ -165,6 +165,8 @@ For every Push:
 
 [The Ultimate SVG Animation List](https://css-tricks.com/mega-list-svg-information/)
 
+[Interactive SVG Coordinate System](http://sarasoueidan.com/demos/interactive-svg-coordinate-system/index.html)
+
 ### SVG Optimization Tools: 
 
 [SVGO](https://github.com/svg/svgo)
@@ -215,6 +217,8 @@ Tools:
 [Attribute Selector](https://css-tricks.com/attribute-selectors/)
 
 [Mastering CSS](http://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
+
+[SV](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
 
 ## Syntax:
 
