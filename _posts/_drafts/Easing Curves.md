@@ -86,7 +86,7 @@ Designing an Easing Curve People always ask me, “What easing curve do I use an
 
 When crafting an easing curve keep in mind that vertical is fast and horizontal is slow. The curve you create should be dependent on the interaction. You can create many different types of curves within the (X,Y) grid.
 
-[Insert Sine ,etc ]
+[CodePen](http://codepen.io/ryanbrownhill/pen/mJeQyq?editors=110)
 
 In addition crafting curves within the frame, one can break the frame! Breaking the frame will cause the animation to go outside of the values in between the keyframes. Breaking the frame can create bounce or anticipation effects.
 
