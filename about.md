@@ -13,4 +13,4 @@ I am currently contributing to:
 * [The Letter Society](http://lettersociety.com/)
 * [Design Open](http://designopen.org/)
 
-![headshot](/images/headshot.jpg)
+<script src="//instansive.com/widget/js/instansive.js"></script><iframe src="//instansive.com/widgets/875bdc2c156ecb1891bc104e7e7a3ff2e24bfd87.html" id="instansive_875bdc2c15" name="instansive_875bdc2c15"  scrolling="no" allowtransparency="true" class="instansive-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
