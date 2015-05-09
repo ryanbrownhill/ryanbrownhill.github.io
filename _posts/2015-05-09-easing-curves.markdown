@@ -1,4 +1,9 @@
-# Crafting Easing Curves for User Interfaces
+---
+layout: post
+title:  "Crafting Easing Curves for User Interfaces"
+date:   2015-05-09 5:00:00
+categories: animation fed
+---
 
 Since the introduction of flat design, the quality of animation has never been more essential for creating great interfaces. Through motion design, one can influence the overall brand experience of a product and set it apart from the market. Animation can make complex interactions simple and turn good designs into memorable user experiences. But how does one create quality animation? Easing curves are one of the many core components that takes a decent animation and makes it fantastic! 
 
@@ -69,6 +74,15 @@ Within most programming languages, there are some predefined easing curves like 
 
 `ease-in-out` = `cubic-bezier(.42, 0, .58, 1)`
 
+
+---
+layout: post
+title: "Defining Easing Curves in CSS"
+date: 2015-05-09 12:00:00
+categories: animation fed
+---
+
+
 ### Defining Easing Curves in CSS
 
 **Global**
@@ -116,3 +130,7 @@ The concept of easing curves doesn’t just apply to a single animation but can 
 
 <iframe height='355' scrolling='no' src='//codepen.io/ryanbrownhill/embed/NqGxgr/?height=355&theme-id=14830' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen <a href='http://codepen.io/ryanbrownhill/pen/NqGxgr/'>Sine Delay Loop</a> by Ryan Brownhill (<a href='http://codepen.io/ryanbrownhill'>@ryanbrownhill</a>) on <a href='http://codepen.io'>CodePen</a>.
 </iframe>
+
+---
+
+Thanks for reading! If you want any resources or have questions feel free to tweet me @ryan_brownhill
