@@ -8,11 +8,15 @@ permalink: /resources/
 
 * Development:
 	* Sublime Text
+		* Sublime Packages 
 	* MacDown
 	* ImageOptim
+	* [Pesticide](http://pesticide.io/)
+	* Dash
 
+	
 Things to install:
-œ
+
 - Homebrew
 	- Use brew to install nvm
 - VirtualBox
@@ -22,6 +26,7 @@ Things to install:
 ## Tools
 
 ### Prototyping Tools:
+
 [Origami](http://facebook.github.io/origami/)
 
 
@@ -38,6 +43,12 @@ Things to install:
 [Sam Richard - Presentations](http://snugug.com/presentations)
 
 [SWIG - Simplified Wrapper and Interface Generation](http://paularmstrong.github.io/swig/)
+
+[Front End Developer Interview Questions](http://h5bp.github.io/Front-end-Developer-Interview-Questions/)
+
+[Hack Reactor](https://www.youtube.com/user/HackReactorSchool)
+
+[Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
 
 ## GitHub:
 
@@ -218,7 +229,9 @@ Tools:
 
 [Mastering CSS](http://www.smashingmagazine.com/mastering-css-principles-comprehensive-reference-guide/)
 
-[SV](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
+[SVG Sprites for Icon Fonts](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
+
+[How to Center in CSS](http://howtocenterincss.com/)
 
 ## Syntax:
 
@@ -339,9 +352,7 @@ These are the book I recommend to anyone who is interesting in learning UX proce
 1. [This is Service Design Thinking- ](http://www.amazon.com/This-Service-Design-Thinking-Basics/dp/1118156307/ref=sr_1_1?s=books&ie=UTF8&qid=1418961298&sr=1-1&keywords=this+is+service+design+thinking&pebp=1418961299763)
 This book is a great primer to what service design is and the tools that they use. This taught me a lot about user research and how to design for things that are not tangible.
 
-2. [Designing for the digital age](http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101/ref=sr_1_1?s=books&ie=UTF8&qid=1418961284&sr=1-1&keywords=designing+for+the+digital+age&pebp=1418961286348)
-
-Amazing book very dense and a long read but it was the first book I read about designing for interaction and products. It shows how the product design world is structured.
+2. [Designing for the digital age](http://www.amazon.com/Designing-Digital-Age-Human-Centered-Products/dp/0470229101/ref=sr_1_1?s=books&ie=UTF8&qid=1418961284&sr=1-1&keywords=designing+for+the+digital+age&pebp=1418961286348) Amazing book very dense and a long read but it was the first book I read about designing for interaction and products. It shows how the product design world is structured.
 
 3. [Designing Interface](http://www.amazon.com/Designing-Interfaces-Jenifer-Tidwell/dp/1449379702/ref=pd_sim_b_1?ie=UTF8&refRID=1B8EM0PGB9KCQW1JRT2Z) Goes though everything interface in detail.
 
