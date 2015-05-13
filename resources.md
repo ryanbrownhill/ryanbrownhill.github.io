@@ -50,6 +50,12 @@ Things to install:
 
 [Write Code Every Day](http://ejohn.org/blog/write-code-every-day/)
 
+[How HTML Drives SEO](http://www.hugeinc.com/ideas/perspective/know-your-html5)
+
+[Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables)
+
+[Fluent Conf Knowledge Share](github.com/jeffersonlam/talks/blob/master/fluent-2015/README.md)
+
 ## GitHub:
 
 [Using github on multidisciplinary teams](http://viget.com/advance/using-github-on-multidisciplinary-teams)
@@ -57,6 +63,8 @@ Things to install:
 [Learn Git - Kevin Suttle](http://kevinsuttle.com/learn-git/)
 
 [Git Guide](http://rogerdudler.github.io/git-guide/)
+
+[GitHub Issues Tagging Guide](https://robinpowered.com/blog/best-practice-system-for-organizing-and-tagging-github-issues/)
 
 
 ### Github Tools:
@@ -72,7 +80,7 @@ For every Push:
 
 1. `git add -A`
 2. `git commit -m “insert message here"`
-3. `git push origin {{branch}}`
+3. `git push {{branch}}`
 
 ### Creating a Remote
 
@@ -240,12 +248,6 @@ Tools:
 [BEM with Sass](http://una.github.io/2013/10/15/sass-3-3-at-root-bem.html)
 
 
-## Development
-
-[Call me nick](http://callmenick.com/categories/tutorials)
-
-[Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables)
-
 ## Web Performance
 
 [Improve UX Through Front-End Performance](http://alistapart.com/article/improving-ux-through-front-end-performance)
@@ -277,7 +279,8 @@ Tools:
 
 [Icomoon](https://icomoon.io/)
 
-## Javscript:
+## Javscript
+
 [Advanced Javascript](http://ejohn.org/apps/learn/)
 
 [Modernizr Tutorial](http://html5doctor.com/using-modernizr-to-detect-html5-features-and-provide-fallbacks/)
@@ -305,9 +308,13 @@ Keyboard Shortcuts:
 
 Highlight the property you want and Press-D to change all attributes on the page
 
-[Emmit](http://emmet.io/ )
+[Emmit](http://emmet.io/)
 
 [Best SublimeText 3 Features](https://scotch.io/bar-talk/best-of-sublime-text-3-features-plugins-and-settings)
+
+Sublime Text Packages:
+
+![Sublime Text Packages](/images/posts/resources/sublime-packages.png)
 
 ## Sass:
 
@@ -335,13 +342,17 @@ Highlight the property you want and Press-D to change all attributes on the page
 
 [COPE - Create one, Publish Everywhere](http://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)
 
-## Inspiration:
+## Inspiration
 
 ### Code:
 
 [HTML,CSS,JS nuggets](http://codyhouse.co/)
 
 [Codrops](tympanus.net/codrops/)
+
+[Call me nick](http://callmenick.com/categories/tutorials)
+
+[Jupyter](https://jupyter.org/)
 
 # Books:
 
